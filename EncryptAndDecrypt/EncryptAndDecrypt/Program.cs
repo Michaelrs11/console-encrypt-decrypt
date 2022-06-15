@@ -10,7 +10,7 @@ namespace EncryptAndDecrypt
         {
             var program = new Program();
             var inputText = string.Empty;
-            Console.WriteLine("Input your text here: ");
+            Console.Write("Input your text here: ");
             inputText = Console.ReadLine();
 
             var encryptText = program.Encrypt(inputText);
